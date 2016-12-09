@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tabbar"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#000000"
+            android:layout_height="62dp">
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/bottom_tabbar_rb_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@android:color/transparent"
+        android:drawableTop="@drawable/tab_address_normal"
+        android:gravity="center"
+        android:text="主页"
+        android:textColor="#ffffff"
+        />
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/bottom_tabbar_rb_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@android:color/transparent"
+        android:drawableTop="@drawable/tab_find_frd_normal"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="知识"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/bottom_tabbar_rb_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@android:color/transparent"
+        android:drawableTop="@drawable/tab_settings_normal"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="历史"/>
+
+
+
+</RadioGroup>
